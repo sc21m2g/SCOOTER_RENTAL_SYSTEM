@@ -1,0 +1,115 @@
+/* Register.css - 更新版本 */  
+.register-container {  
+  max-width: 650px;  /* 调整为更宽以适应栅格布局 */  
+  margin: 2rem auto;  
+  padding: 2rem;  
+}  
+
+.register-card {  
+  border: none;  
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+  border-radius: 8px;  
+}  
+
+.register-title {  
+  font-size: 1.75rem;  
+  font-weight: 600;  
+  color: #333;  
+  margin-bottom: 0.5rem;  
+}  
+
+/* 输入组样式 */  
+.input-group-text {  
+  background-color: #f8f9fa;  
+  color: #666;  
+  border-right: none;  
+}  
+
+.input-group .form-control {  
+  border-left: none;  
+}  
+
+.input-group .form-control:focus {  
+  border-color: #ced4da;  
+  box-shadow: none;  
+}  
+
+.input-group .form-control:focus + .input-group-text {  
+  border-color: #ced4da;  
+}  
+
+/* 表单控件样式 */  
+.form-control {  
+  padding: 0.75rem;  
+  font-size: 1rem;  
+  transition: border-color 0.3s;  
+}  
+
+.form-control:focus {  
+  border-color: #4CAF50;  
+  box-shadow: 0 0 0 0.25rem rgba(76, 175, 80, 0.25);  
+}  
+
+.form-text {  
+  font-size: 0.75rem;  
+}  
+
+/* 按钮样式 */  
+.register-button {  
+  background-color: #4CAF50;  
+  border-color: #4CAF50;  
+  padding: 0.75rem;  
+  font-size: 1rem;  
+  font-weight: 500;  
+  transition: background-color 0.3s;  
+}  
+
+.register-button:hover {  
+  background-color: #3e8e41;  
+  border-color: #3e8e41;  
+}  
+
+/* 表单检查样式 */  
+.form-check {  
+  margin-bottom: 1rem;  
+}  
+
+.form-check-label {  
+  font-size: 0.875rem;  
+  color: #555;  
+}  
+
+.form-check-input:checked {  
+  background-color: #4CAF50;  
+  border-color: #4CAF50;  
+}  
+
+/* 链接样式 */  
+a {  
+  color: #4CAF50;  
+  text-decoration: none;  
+  font-weight: 500;  
+}  
+
+a:hover {  
+  text-decoration: underline;  
+  color: #3e8e41;  
+}  
+
+/* 错误反馈 */  
+.invalid-feedback {  
+  color: #dc3545;  
+  font-size: 0.75rem;  
+  margin-top: 0.25rem;  
+}  
+
+/* 响应式调整 */  
+@media (max-width: 767.98px) {  
+  .register-container {  
+    padding: 1rem;  
+  }  
+  
+  .register-card {  
+    box-shadow: none;  
+  }  
+}

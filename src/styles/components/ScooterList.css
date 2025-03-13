@@ -1,0 +1,56 @@
+/* ScooterList.css */  
+.scooter-list-container {  
+    margin-bottom: 2rem;  
+  }  
+  
+  .search-group {  
+    position: relative;  
+  }  
+  
+  .search-input {  
+    padding-left: 2.5rem;  
+    border-radius: 20px;  
+  }  
+  
+  .search-icon {  
+    position: absolute;  
+    left: 1rem;  
+    top: 50%;  
+    transform: translateY(-50%);  
+    color: #6c757d;  
+  }  
+  
+  .filter-controls {  
+    flex-wrap: wrap;  
+  }  
+  
+  .battery-filter {  
+    flex: 1;  
+    min-width: 200px;  
+  }  
+  
+  .view-toggle-btn {  
+    border-radius: 20px;  
+  }  
+  
+  .scooters-count {  
+    font-size: 0.9rem;  
+    color: #6c757d;  
+  }  
+  
+  .map-card {  
+    border-radius: 10px;  
+    overflow: hidden;  
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  
+  }  
+  
+  @media (max-width: 767px) {  
+    .filter-controls {  
+      flex-direction: column;  
+      gap: 1rem;  
+    }  
+    
+    .available-switch {  
+      margin-top: 0.5rem;  
+    }  
+  }

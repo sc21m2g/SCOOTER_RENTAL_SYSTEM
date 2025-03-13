@@ -1,0 +1,98 @@
+/* RentalForm.css */  
+.rental-form-container {  
+    margin-bottom: 2rem;  
+  }  
+  
+  .back-button {  
+    color: #495057;  
+    text-decoration: none;  
+    font-weight: 500;  
+  }  
+  
+  .back-button:hover {  
+    color: #0d6efd;  
+  }  
+  
+  .rental-plans {  
+    display: flex;  
+    flex-direction: column;  
+    gap: 0.5rem;  
+  }  
+  
+  .rental-plan-option {  
+    padding: 10px 15px;  
+    background-color: #f8f9fa;  
+    border-radius: 6px;  
+    transition: all 0.2s;  
+  }  
+  
+  .rental-plan-option:hover {  
+    background-color: #e9ecef;  
+  }  
+  
+  .rental-plan-option input:checked + label {  
+    font-weight: 500;  
+  }  
+  
+  .rental-summary {  
+    background-color: #f8f9fa;  
+    padding: 15px;  
+    border-radius: 8px;  
+    margin-bottom: 20px;  
+  }  
+  
+  .rental-terms {  
+    border: 1px solid #dee2e6;  
+    padding: 15px;  
+    border-radius: 8px;  
+  }  
+  
+  .rental-terms ul {  
+    padding-left: 20px;  
+    margin-bottom: 15px;  
+  }  
+  
+  .discount-badge {  
+    text-align: center;  
+  }  
+  
+  .booking-confirmation {  
+    text-align: center;  
+  }  
+  
+  .booking-details {  
+    padding: 15px;  
+    background-color: #f8f9fa;  
+    border-radius: 8px;  
+    margin-bottom: 20px;  
+    text-align: left;  
+  }  
+  
+  .unlock-instructions {  
+    text-align: left;  
+  }  
+  
+  .unlock-instructions ol {  
+    padding-left: 20px;  
+  }  
+  
+  .confirm-details {  
+    background-color: #f8f9fa;  
+    padding: 15px;  
+    border-radius: 8px;  
+  }  
+  
+  .payment-confirm {  
+    background-color: #f8f9fa;  
+    padding: 15px;  
+    border-radius: 8px;  
+  }  
+  
+  .payment-method-title {  
+    font-size: 0.9rem;  
+    color: #6c757d;  
+  }  
+  
+  .payment-method-details {  
+    font-weight: 500;  
+  }

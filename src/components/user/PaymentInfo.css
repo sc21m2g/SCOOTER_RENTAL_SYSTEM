@@ -1,0 +1,163 @@
+/* PaymentInfo.css */  
+.payment-info-container {  
+  padding: 2rem 0;  
+}  
+
+/* 卡片容器 */  
+.payment-card {  
+  border: none;  
+  border-radius: 12px;  
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);  
+  overflow: hidden;  
+}  
+
+/* 卡片预览区域 */  
+.card-preview {  
+  margin: 20px 0;  
+}  
+
+.payment-card-preview {  
+  height: 200px;  
+  width: 100%;  
+  max-width: 360px;  
+  margin: 0 auto;  
+  border-radius: 12px;  
+  background: linear-gradient(135deg, #444857 0%, #222531 100%);  
+  padding: 20px;  
+  color: white;  
+  position: relative;  
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);  
+  transition: all 0.3s ease;  
+}  
+
+/* 不同卡片类型的样式 */  
+.payment-card-preview.visa {  
+  background: linear-gradient(135deg, #3a8eff 0%, #0043c8 100%);  
+}  
+
+.payment-card-preview.mastercard {  
+  background: linear-gradient(135deg, #ff8a00 0%, #e52e2e 100%);  
+}  
+
+.payment-card-preview.amex {  
+  background: linear-gradient(135deg, #59c2ff 0%, #1270b0 100%);  
+}  
+
+.payment-card-preview.discover {  
+  background: linear-gradient(135deg, #ff6b6b 0%, #cc0000 100%);  
+}  
+
+/* 卡片预览头部 */  
+.card-preview-header {  
+  display: flex;  
+  justify-content: space-between;  
+  align-items: center;  
+  margin-bottom: 30px;  
+}  
+
+/* 卡片芯片 */  
+.card-chip {  
+  width: 45px;  
+  height: 35px;  
+  background-color: #ffda7b;  
+  border-radius: 6px;  
+  position: relative;  
+  overflow: hidden;  
+}  
+
+.card-chip::before {  
+  content: '';  
+  position: absolute;  
+  top: 50%;  
+  left: 50%;  
+  width: 80%;  
+  height: 70%;  
+  transform: translate(-50%, -50%);  
+  background-color: rgba(255, 255, 255, 0.2);  
+  border-radius: 2px;  
+}  
+
+/* 卡片类型图标 */  
+.card-type {  
+  font-size: 24px;  
+  opacity: 0.9;  
+}  
+
+/* 卡号预览 */  
+.card-number-preview {  
+  font-size: 18px;  
+  letter-spacing: 2px;  
+  text-align: center;  
+  margin-bottom: 25px;  
+  font-family: "Courier New", monospace;  
+}  
+
+/* 卡片详情预览 */  
+.card-details-preview {  
+  display: flex;  
+  justify-content: space-between;  
+  font-size: 14px;  
+}  
+
+.card-holder, .card-expiry-preview {  
+  text-align: left;  
+}  
+
+.card-label {  
+  font-size: 10px;  
+  text-transform: uppercase;  
+  opacity: 0.7;  
+  margin-bottom: 5px;  
+}  
+
+.card-name-preview {  
+  text-transform: uppercase;  
+  font-size: 14px;  
+  letter-spacing: 1px;  
+}  
+
+/* 安全信息区域 */  
+.security-info {  
+  background-color: #f8f9fa;  
+  border-radius: 6px;  
+}  
+
+/* 表单样式 */  
+.form-group {  
+  margin-bottom: 1.25rem;  
+}  
+
+.form-label {  
+  display: block;  
+  margin-bottom: 0.5rem;  
+  font-weight: 500;  
+  color: #555;  
+}  
+
+.form-control:focus {  
+  border-color: #4CAF50;  
+  box-shadow: 0 0 0 0.25rem rgba(76, 175, 80, 0.25);  
+}  
+
+/* 按钮覆盖样式 */  
+.btn-primary {  
+  background-color: #4CAF50;  
+  border-color: #4CAF50;  
+}  
+
+.btn-primary:hover, .btn-primary:focus {  
+  background-color: #3e8e41;  
+  border-color: #3e8e41;  
+}  
+
+/* 响应式调整 */  
+@media (max-width: 576px) {  
+  .payment-card-preview {  
+    max-width: 100%;  
+    height: 180px;  
+  }  
+  
+  .card-number-preview {  
+    font-size: 16px;  
+  }  
+}

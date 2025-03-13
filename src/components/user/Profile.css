@@ -1,0 +1,324 @@
+/* 基本容器样式 */  
+.profile-container {  
+  max-width: 1200px;  
+  margin: 0 auto;  
+  padding: 2rem 1rem;  
+}  
+
+/* 侧边栏样式 */  
+.profile-sidebar {  
+  border-radius: 10px;  
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+  overflow: hidden;  
+  height: 100%;  
+}  
+
+.profile-nav .nav-link {  
+  color: #555;  
+  padding: 0.75rem 1rem;  
+  border-radius: 0;  
+  border-left: 3px solid transparent;  
+}  
+
+.profile-nav .nav-link.active {  
+  background-color: rgba(76, 175, 80, 0.1);  
+  color: #4CAF50;  
+  border-left-color: #4CAF50;  
+}  
+
+.profile-nav .nav-link:hover:not(.active) {  
+  background-color: rgba(0, 0, 0, 0.03);  
+}  
+
+/* 头像样式 */  
+.avatar-circle {  
+  width: 100px;  
+  height: 100px;  
+  border-radius: 50%;  
+  background-color: #4CAF50;  
+  color: white;  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+  font-size: 2.5rem;  
+  margin: 0 auto;  
+}  
+
+.profile-avatar {  
+  width: 100px;  
+  height: 100px;  
+  border-radius: 50%;  
+  object-fit: cover;  
+  margin-right: 1.5rem;  
+  border: 3px solid #4CAF50;  
+}  
+
+/* 用户统计样式 */  
+.user-stats {  
+  border-top: 1px solid #eee;  
+  padding-top: 15px;  
+}  
+
+.stat-value {  
+  font-size: 1.25rem;  
+  font-weight: 600;  
+  color: #4CAF50;  
+  margin-bottom: 0.25rem;  
+}  
+
+.stat-label {  
+  color: #666;  
+  font-size: 0.75rem;  
+}  
+
+/* 主内容区域样式 */  
+.profile-content {  
+  border-radius: 10px;  
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+  min-height: 600px;  
+}  
+  
+.profile-header {  
+  display: flex;  
+  align-items: center;  
+  margin-bottom: 2rem;  
+}  
+  
+.profile-title {  
+  margin: 0;  
+  font-size: 1.75rem;  
+  font-weight: 600;  
+  color: #333;  
+}  
+  
+.profile-subtitle {  
+  color: #666;  
+  margin: 0.5rem 0 0;  
+}  
+  
+.profile-tabs {  
+  display: flex;  
+  border-bottom: 2px solid #eee;  
+  margin-bottom: 2rem;  
+}  
+  
+.profile-tab {  
+  padding: 0.75rem 1.5rem;  
+  cursor: pointer;  
+  font-weight: 500;  
+  color: #666;  
+  border-bottom: 3px solid transparent;  
+  transition: all 0.3s;  
+}  
+  
+.profile-tab.active {  
+  color: #4CAF50;  
+  border-bottom-color: #4CAF50;  
+}  
+  
+.profile-section {  
+  background-color: #fff;  
+  border-radius: 8px;  
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+  padding: 1.5rem;  
+  margin-bottom: 2rem;  
+}  
+  
+.profile-section-title {  
+  font-size: 1.25rem;  
+  font-weight: 600;  
+  margin-bottom: 1.5rem;  
+  color: #333;  
+}  
+  
+.profile-form {  
+  max-width: 500px;  
+}  
+  
+.form-group {  
+  margin-bottom: 1.25rem;  
+}  
+  
+.form-label {  
+  display: block;  
+  margin-bottom: 0.5rem;  
+  font-weight: 500;  
+  color: #555;  
+}  
+  
+.form-input {  
+  width: 100%;  
+  padding: 0.75rem;  
+  border: 1px solid #ddd;  
+  border-radius: 4px;  
+  font-size: 1rem;  
+  transition: border-color 0.3s;  
+}  
+  
+.form-input:focus {  
+  border-color: #4CAF50;  
+  outline: none;  
+}  
+  
+.profile-action-buttons {  
+  display: flex;  
+  gap: 1rem;  
+  margin-top: 1.5rem;  
+}  
+
+/* 安全设置区域 */  
+.security-section {  
+  border-radius: 8px;  
+  padding: 20px;  
+  background: #f9f9f9;  
+  margin-bottom: 20px;  
+}  
+
+/* 支付方式样式 */  
+.payment-card-item {  
+  padding: 15px;  
+  margin-bottom: 10px;  
+  border-left: 3px solid transparent;  
+  transition: all 0.2s;  
+}  
+
+.payment-card-item:hover {  
+  background-color: #f9f9f9;  
+  border-left-color: #4CAF50;  
+}  
+
+.card-icon {  
+  font-size: 24px;  
+  color: #555;  
+}  
+
+.card-name {  
+  font-weight: 500;  
+}  
+
+.card-number, .card-expiry {  
+  font-size: 0.85rem;  
+}  
+
+.btn-remove-card {  
+  opacity: 0.7;  
+  transition: opacity 0.2s;  
+}  
+
+.btn-remove-card:hover {  
+  opacity: 1;  
+}  
+
+/* 钱包区域样式 */  
+.wallet-section {  
+  margin-top: 30px;  
+}  
+
+.wallet-card {  
+  border: 1px solid #e0e0e0;  
+  border-radius: 8px;  
+  background: linear-gradient(135deg, #f5f7fa 0%, #e0e5ec 100%);  
+}  
+
+.wallet-balance {  
+  font-size: 2rem;  
+  font-weight: 600;  
+  color: #4CAF50;  
+}  
+
+/* 租赁历史样式 */  
+.rental-item {  
+  padding: 15px;  
+  margin-bottom: 10px;  
+  border-left: 3px solid transparent;  
+  transition: all 0.2s;  
+}  
+
+.rental-item:hover {  
+  background-color: #f9f9f9;  
+  border-left-color: #4CAF50;  
+}  
+
+.rental-scooter {  
+  font-weight: 500;  
+  margin-bottom: 5px;  
+}  
+
+.rental-details {  
+  display: flex;  
+  flex-wrap: wrap;  
+}  
+
+.rental-rating {  
+  font-size: 1.1rem;  
+}  
+
+/* 按钮样式 */  
+.btn-primary {  
+  background-color: #4CAF50;  
+  color: white;  
+  border: none;  
+  padding: 0.75rem 1.5rem;  
+  border-radius: 4px;  
+  font-weight: 500;  
+  cursor: pointer;  
+  transition: background-color 0.3s;  
+}  
+  
+.btn-primary:hover {  
+  background-color: #3e8e41;  
+}  
+  
+.btn-secondary {  
+  background-color: #f5f5f5;  
+  color: #333;  
+  border: none;  
+  padding: 0.75rem 1.5rem;  
+  border-radius: 4px;  
+  font-weight: 500;  
+  cursor: pointer;  
+  transition: background-color 0.3s;  
+}  
+  
+.btn-secondary:hover {  
+  background-color: #e0e0e0;  
+}  
+  
+.stats-container {  
+  display: grid;  
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  
+  gap: 1rem;  
+}  
+  
+.stat-card {  
+  background-color: #f9f9f9;  
+  border-radius: 8px;  
+  padding: 1.5rem;  
+  text-align: center;  
+}  
+
+/* 响应式调整 */  
+@media (max-width: 767.98px) {  
+  .profile-sidebar {  
+    margin-bottom: 20px;  
+  }  
+  
+  .avatar-circle {  
+    width: 80px;  
+    height: 80px;  
+    font-size: 2rem;  
+  }  
+  
+  .rental-item {  
+    flex-direction: column;  
+  }  
+  
+  .rental-item .d-flex {  
+    flex-direction: column;  
+    align-items: flex-start !important;  
+  }  
+  
+  .rental-item .d-flex:last-child {  
+    margin-top: 10px;  
+  }  
+}
